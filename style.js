@@ -38,22 +38,22 @@ tabs.forEach((tab) => {
 
 const codeImages = {
   tema2: {
-    html: ["tema2/tema2_html_1.png", "tema2/tema2_html_2.png", "tema2/tema2_html_3.png"],
-    css: ["tema2/tema2_css_1.png", "tema2/tema2_css_2.png", "tema2/tema2_css_3.png"],
+    html: ["tema2/tema2_html_1.webp", "tema2/tema2_html_2.webp", "tema2/tema2_html_3.webp"],
+    css: ["tema2/tema2_css_1.webp", "tema2/tema2_css_2.webp", "tema2/tema2_css_3.webp"],
   },
   tema3: {
-    html: ["tema3/tema3_html_1.png", "tema3/tema3_html_2.png", "tema3/tema3_html_3.png"],
-    css: ["tema3/tema3_css_1.png", "tema3/tema3_css_2.png", "tema3/tema3_css_3.png"],
+    html: ["tema3/tema3_html_1.webp", "tema3/tema3_html_2.webp", "tema3/tema3_html_3.webp"],
+    css: ["tema3/tema3_css_1.webp", "tema3/tema3_css_2.webp", "tema3/tema3_css_3.webp"],
   },
   tema4: {
-    html: ["tema4/tema4_html_1.png", "tema4/tema4_html_2.png", "tema4/tema4_html_3.png"],
-    css: ["tema4/tema4_css_1.png", "tema4/tema4_css_2.png", "tema4/tema4_css_3.png"],
-    java: ["tema4/tema4_java_1.png", "tema4/tema4_java_2.png", "tema4/tema4_java_3.png"],
+    html: ["tema4/tema4_html_1.webp", "tema4/tema4_html_2.webp", "tema4/tema4_html_3.webp"],
+    css: ["tema4/tema4_css_1.webp", "tema4/tema4_css_2.webp", "tema4/tema4_css_3.webp"],
+    java: ["tema4/tema4_java_1.webp", "tema4/tema4_java_2.webp", "tema4/tema4_java_3.webp"],
   },
   tema5: {
-    html: ["tema5/tema5_html_1.png", "tema5/tema5_html_2.png", "tema5/tema5_html_3.png", "tema5/tema5_html_4.png"],
-    css: ["tema5/tema5_css_1.png", "tema5/tema5_css_2.png", "tema5/tema5_css_3.png", "tema5/tema5_css_4.png", "tema5/tema5_css_5.png", "tema5/tema5_css_6.png", "tema5/tema5_css_7.png"],
-    java: ["tema5/tema5_java_1.png", "tema5/tema5_java_2.png", "tema5/tema5_java_3.png", "tema5/tema5_java_4.png", "tema5/tema5_java_5.png", "tema5/tema5_java_6.png"],
+    html: ["tema5/tema5_html_1.webp", "tema5/tema5_html_2.webp", "tema5/tema5_html_3.webp", "tema5/tema5_html_4.webp"],
+    css: ["tema5/tema5_css_1.webp", "tema5/tema5_css_2.webp", "tema5/tema5_css_3.webp", "tema5/tema5_css_4.webp", "tema5/tema5_css_5.webp", "tema5/tema5_css_6.webp", "tema5/tema5_css_7.webp"],
+    java: ["tema5/tema5_java_1.webp", "tema5/tema5_java_2.webp", "tema5/tema5_java_3.webp", "tema5/tema5_java_4.webp", "tema5/tema5_java_5.webp", "tema5/tema5_java_6.webp"],
   },
 };
 
@@ -84,23 +84,23 @@ codeGrids.forEach((grid) => {
 const processSections = document.querySelectorAll(".processen");
 const processImages = {
   tema3: {
-    ide: ["tema3/t3_process_ide_1.png", "tema3/t3_process_ide_2.png", "tema3/t3_process_ide_3.png", "tema3/t3_process_ide_4.png", "tema3/t3_process_ide_5.png"],
-    design: ["tema3/t3_process_design_1.png", "tema3/t3_process_design_2.png", "tema3/t3_process_design_3.png", "tema3/t3_process_design_4.png", "tema3/t3_process_design_5.png"],
-    kodning: ["tema3/t3_process_kodning_1.png", "tema3/t3_process_kodning_2.png", "tema3/t3_process_kodning_3.png", "tema3/t3_process_kodning_4.png", "tema3/t3_process_kodning_5.png"],
+    ide: ["tema3/t3_process_ide_1.webp", "tema3/t3_process_ide_2.webp", "tema3/t3_process_ide_3.webp", "tema3/t3_process_ide_4.webp", "tema3/t3_process_ide_5.webp"],
+    design: ["tema3/t3_process_design_1.webp", "tema3/t3_process_design_2.webp", "tema3/t3_process_design_3.webp", "tema3/t3_process_design_4.webp", "tema3/t3_process_design_5.webp"],
+    kodning: ["tema3/t3_process_kodning_1.webp", "tema3/t3_process_kodning_2.webp", "tema3/t3_process_kodning_3.webp", "tema3/t3_process_kodning_4.webp", "tema3/t3_process_kodning_5.webp"],
   },
   tema4: {
-    ide: ["tema4/t4_process_ide_1.png", "tema4/t4_process_ide_2.png", "tema4/t4_process_ide_3.png"],
+    ide: ["tema4/t4_process_ide_1.webp", "tema4/t4_process_ide_2.webp", "tema4/t4_process_ide_3.webp"],
 
-    design: ["tema4/t4_process_design_1.png", "tema4/t4_process_design_2.png", "tema4/t4_process_design_3.png", "tema4/t4_process_design_4.png"],
+    design: ["tema4/t4_process_design_1.webp", "tema4/t4_process_design_2.webp", "tema4/t4_process_design_3.webp", "tema4/t4_process_design_4.webp"],
 
-    kodning: ["tema4/t4_process_kodning_1.png", "tema4/t4_process_kodning_2.png", "tema4/t4_process_kodning_3.png"],
+    kodning: ["tema4/t4_process_kodning_1.webp", "tema4/t4_process_kodning_2.webp", "tema4/t4_process_kodning_3.webp"],
   },
   tema5: {
-    ide: ["tema5/t5_process_ide_1.png", "tema5/t5_process_ide_2.png", "tema5/t5_process_ide_3.png"],
+    ide: ["tema5/t5_process_ide_1.webp", "tema5/t5_process_ide_2.webp", "tema5/t5_process_ide_3.webp"],
 
-    design: ["tema5/t5_process_design_1.png", "tema5/t5_process_design_2.png", "tema5/t5_process_design_3.png", "tema5/t5_process_design_4.png"],
+    design: ["tema5/t5_process_design_1.webp", "tema5/t5_process_design_2.webp", "tema5/t5_process_design_3.webp", "tema5/t5_process_design_4.webp"],
 
-    kodning: ["tema5/t5_process_kodning_1.png", "tema5/t5_process_kodning_2.png", "tema5/t5_process_kodning_3.png", "tema5/t5_process_kodning_4.png", "tema5/t5_process_kodning_5.png"],
+    kodning: ["tema5/t5_process_kodning_1.webp", "tema5/t5_process_kodning_2.webp", "tema5/t5_process_kodning_3.webp", "tema5/t5_process_kodning_4.webp", "tema5/t5_process_kodning_5.webp"],
   },
 };
 processSections.forEach((section) => {
