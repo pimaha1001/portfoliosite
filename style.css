@@ -62,7 +62,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("img/shared/baggrund3.webp");
+  background-image: url("shared/baggrund3.webp");
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
@@ -148,5 +148,5 @@ p {
   height: 20px;
 }
 .solution .btn:hover .btn_icon {
-  content: url("img/shared/site_icon_hover.svg");
+  content: url("shared/site_icon_hover.svg");
 }
