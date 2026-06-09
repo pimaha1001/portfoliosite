@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Anton&family=Chewy&family=Momo+Signature&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+:root {
+  --color_logo: #2a5123;
+  --color_header_text: #2a5123;
+  --color_header_background: #f1dcba;
+
+  /* Logotype */
+  --color-logotype: ;
+  --font-logotype-size: 1rem;
+
+  /* Links */
+  --color-link: #2a5123;
+  --color-link-hover: #e97231;
+  --color-link-active: #ff9e42;
+  --border-radius-links: 1px;
+
+  /* Headlines (size)*/
+  --font-h1-size: 3rem;
+  --font-h2-size: 1.2rem;
+  --font-h3-size: 1rem;
+
+  --headline2-size: 1rem;
+  --headline3-size: 1rem;
+  --font-sub1-size: 1rem;
+
+  /* Tekst */
+  --color-text: #2a5123;
+  --text-size: 1rem;
+
+  /*  Margins */
+  --margin-head-bottom: 5px;
+
+  /* Borders */
+  --border-radius: 5px;
+
+  /* Fonts */
+  --font-family-h1: "Alegreya", serif;
+  --font-family-h2-h3: "Chewy", system-ui;
+  --font-family-p: "Open Sans", sans-serif;
+  --font-family-btn: "Anton", sans-serif;
+
+  /* Font weights */
+  --font-weight-ekstrabold: 800;
+  --font-weight-bold: 700;
+  --font-weight-medium: 500;
+  --font-weight-regular: 300;
+  --font-weight-light: 200;
+
+  /* Projekt mappe background colors */
+  --form-background-color: #354036;
+  --form-ligther-color: #3f4b3e;
+  --form-shadow-color: #354036;
+  /* --color-field-bg: ; */
+
+  /* Footer background color*/
+  --footer-background-color: black;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("img/shared/baggrund3.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+main {
+  padding: 0 85px;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.forside section {
+  background-color: #f8cd7b;
+}
+
+h1 {
+  font-size: var(--font-h1-size);
+  font-weight: var(--font-weight-ekstrabold);
+  font-family: var(--font-family-h1);
+  font-style: italic;
+
+  color: var(--color-text);
+  margin: 20px 0;
+  line-height: 1.3rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: var(--font-h2-size);
+  font-weight: var(--font-weight-bold);
+  font-family: var(--font-family-h2-h3);
+
+  color: var(--color-text);
+  margin: 20px 0;
+
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: var(--headline3-size);
+  font-family: var(--font-family-h2-h3);
+
+  color: white;
+
+  text-transform: uppercase;
+}
+p {
+  font-family: var(--font-family-p);
+  font-size: var(--text-size);
+  color: var(--color-text);
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  padding: 12px 40px;
+
+  color: #ff9e42;
+  background: #2a5123;
+
+  font-family: var(--font-family-btn);
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ff9e42;
+  color: #2a5123;
+  border: 1px solid #2a5123;
+}
+.solution .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.solution .btn img {
+  width: 20px;
+  height: 20px;
+}
+.solution .btn:hover .btn_icon {
+  content: url("img/shared/site_icon_hover.svg");
+}
