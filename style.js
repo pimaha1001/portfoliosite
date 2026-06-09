@@ -55,6 +55,27 @@ const codeImages = {
     css: ["tema5/tema5_css_1.webp", "tema5/tema5_css_2.webp", "tema5/tema5_css_3.webp", "tema5/tema5_css_4.webp", "tema5/tema5_css_5.webp", "tema5/tema5_css_6.webp", "tema5/tema5_css_7.webp"],
     java: ["tema5/tema5_java_1.webp", "tema5/tema5_java_2.webp", "tema5/tema5_java_3.webp", "tema5/tema5_java_4.webp", "tema5/tema5_java_5.webp", "tema5/tema5_java_6.webp"],
   },
+  const codeImages = {
+  tema6: {
+    html: [
+      "tema6/tema6_html_1.png",
+      "tema6/tema6_html_2.png",
+      "tema6/tema6_html_3.png",
+    ],
+
+    css: [
+      "tema6/tema6_css_1.png",
+      "tema6/tema6_css_2.png",
+      "tema6/tema6_css_3.png",
+    ],
+
+    java: [
+      "tema6/tema6_js_1.png",
+      "tema6/tema6_js_2.png",
+      "tema6/tema6_js_3.png",
+    ],
+  },
+};
 };
 
 const codeGrids = document.querySelectorAll(".code_grid");
@@ -102,6 +123,27 @@ const processImages = {
 
     kodning: ["tema5/t5_process_kodning_1.webp", "tema5/t5_process_kodning_2.webp", "tema5/t5_process_kodning_3.webp", "tema5/t5_process_kodning_4.webp", "tema5/t5_process_kodning_5.webp"],
   },
+  const processImages = {
+  tema6: {
+    ide: [
+      "tema6/t6_process_ide_1.png",
+      "tema6/t6_process_ide_2.png",
+      "tema6/t6_process_ide_3.png",
+    ],
+
+    design: [
+      "tema6/t6_process_design_1.png",
+      "tema6/t6_process_design_2.png",
+      "tema6/t6_process_design_3.png",
+    ],
+
+    kodning: [
+      "tema6/t6_process_kodning_1.png",
+      "tema6/t6_process_kodning_2.png",
+      "tema6/t6_process_kodning_3.png",
+    ],
+  },
+};
 };
 processSections.forEach((section) => {
   const buttons = section.querySelectorAll(".process_btn");
