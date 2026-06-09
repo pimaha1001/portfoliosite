@@ -38,22 +38,22 @@ tabs.forEach((tab) => {
 
 const codeImages = {
   tema2: {
-    html: ["img/tema2/tema2_html_1.png", "img/tema2/tema2_html_2.png", "img/tema2/tema2_html_3.png"],
-    css: ["img/tema2/tema2_css_1.png", "img/tema2/tema2_css_2.png", "img/tema2/tema2_css_3.png"],
+    html: ["tema2/tema2_html_1.png", "tema2/tema2_html_2.png", "tema2/tema2_html_3.png"],
+    css: ["tema2/tema2_css_1.png", "tema2/tema2_css_2.png", "tema2/tema2_css_3.png"],
   },
   tema3: {
-    html: ["img/tema3/tema3_html_1.png", "img/tema3/tema3_html_2.png", "img/tema3/tema3_html_3.png"],
-    css: ["img/tema3/tema3_css_1.png", "img/tema3/tema3_css_2.png", "img/tema3/tema3_css_3.png"],
+    html: ["tema3/tema3_html_1.png", "tema3/tema3_html_2.png", "tema3/tema3_html_3.png"],
+    css: ["tema3/tema3_css_1.png", "tema3/tema3_css_2.png", "tema3/tema3_css_3.png"],
   },
   tema4: {
-    html: ["img/tema4/tema4_html_1.png", "img/tema4/tema4_html_2.png", "img/tema4/tema4_html_3.png"],
-    css: ["img/tema4/tema4_css_1.png", "img/tema4/tema4_css_2.png", "img/tema4/tema4_css_3.png"],
-    java: ["img/tema4/tema4_java_1.png", "img/tema4/tema4_java_2.png", "img/tema4/tema4_java_3.png"],
+    html: ["tema4/tema4_html_1.png", "tema4/tema4_html_2.png", "tema4/tema4_html_3.png"],
+    css: ["tema4/tema4_css_1.png", "tema4/tema4_css_2.png", "tema4/tema4_css_3.png"],
+    java: ["tema4/tema4_java_1.png", "tema4/tema4_java_2.png", "tema4/tema4_java_3.png"],
   },
   tema5: {
-    html: ["img/tema5/tema5_html_1.png", "img/tema5/tema5_html_2.png", "img/tema5/tema5_html_3.png", "img/tema5/tema5_html_4.png"],
-    css: ["img/tema5/tema5_css_1.png", "img/tema5/tema5_css_2.png", "img/tema5/tema5_css_3.png", "img/tema5/tema5_css_4.png", "img/tema5/tema5_css_5.png", "img/tema5/tema5_css_6.png", "img/tema5/tema5_css_7.png"],
-    java: ["img/tema5/tema5_java_1.png", "img/tema5/tema5_java_2.png", "img/tema5/tema5_java_3.png", "img/tema5/tema5_java_4.png", "img/tema5/tema5_java_5.png", "img/tema5/tema5_java_6.png"],
+    html: ["tema5/tema5_html_1.png", "tema5/tema5_html_2.png", "tema5/tema5_html_3.png", "tema5/tema5_html_4.png"],
+    css: ["tema5/tema5_css_1.png", "tema5/tema5_css_2.png", "tema5/tema5_css_3.png", "tema5/tema5_css_4.png", "tema5/tema5_css_5.png", "tema5/tema5_css_6.png", "tema5/tema5_css_7.png"],
+    java: ["tema5/tema5_java_1.png", "tema5/tema5_java_2.png", "tema5/tema5_java_3.png", "tema5/tema5_java_4.png", "tema5/tema5_java_5.png", "tema5/tema5_java_6.png"],
   },
 };
 
@@ -84,23 +84,23 @@ codeGrids.forEach((grid) => {
 const processSections = document.querySelectorAll(".processen");
 const processImages = {
   tema3: {
-    ide: ["img/tema3/t3_process_ide_1.png", "img/tema3/t3_process_ide_2.png", "img/tema3/t3_process_ide_3.png", "img/tema3/t3_process_ide_4.png", "img/tema3/t3_process_ide_5.png"],
-    design: ["img/tema3/t3_process_design_1.png", "img/tema3/t3_process_design_2.png", "img/tema3/t3_process_design_3.png", "img/tema3/t3_process_design_4.png", "img/tema3/t3_process_design_5.png"],
-    kodning: ["img/tema3/t3_process_kodning_1.png", "img/tema3/t3_process_kodning_2.png", "img/tema3/t3_process_kodning_3.png", "img/tema3/t3_process_kodning_4.png", "img/tema3/t3_process_kodning_5.png"],
+    ide: ["tema3/t3_process_ide_1.png", "tema3/t3_process_ide_2.png", "tema3/t3_process_ide_3.png", "tema3/t3_process_ide_4.png", "tema3/t3_process_ide_5.png"],
+    design: ["tema3/t3_process_design_1.png", "tema3/t3_process_design_2.png", "tema3/t3_process_design_3.png", "tema3/t3_process_design_4.png", "tema3/t3_process_design_5.png"],
+    kodning: ["tema3/t3_process_kodning_1.png", "tema3/t3_process_kodning_2.png", "tema3/t3_process_kodning_3.png", "tema3/t3_process_kodning_4.png", "tema3/t3_process_kodning_5.png"],
   },
   tema4: {
-    ide: ["img/tema4/t4_process_ide_1.png", "img/tema4/t4_process_ide_2.png", "img/tema4/t4_process_ide_3.png"],
+    ide: ["tema4/t4_process_ide_1.png", "tema4/t4_process_ide_2.png", "tema4/t4_process_ide_3.png"],
 
-    design: ["img/tema4/t4_process_design_1.png", "img/tema4/t4_process_design_2.png", "img/tema4/t4_process_design_3.png", "img/tema4/t4_process_design_4.png"],
+    design: ["tema4/t4_process_design_1.png", "tema4/t4_process_design_2.png", "tema4/t4_process_design_3.png", "tema4/t4_process_design_4.png"],
 
-    kodning: ["img/tema4/t4_process_kodning_1.png", "img/tema4/t4_process_kodning_2.png", "img/tema4/t4_process_kodning_3.png"],
+    kodning: ["tema4/t4_process_kodning_1.png", "tema4/t4_process_kodning_2.png", "tema4/t4_process_kodning_3.png"],
   },
   tema5: {
-    ide: ["img/tema5/t5_process_ide_1.png", "img/tema5/t5_process_ide_2.png", "img/tema5/t5_process_ide_3.png"],
+    ide: ["tema5/t5_process_ide_1.png", "tema5/t5_process_ide_2.png", "tema5/t5_process_ide_3.png"],
 
-    design: ["img/tema5/t5_process_design_1.png", "img/tema5/t5_process_design_2.png", "img/tema5/t5_process_design_3.png", "img/tema5/t5_process_design_4.png"],
+    design: ["tema5/t5_process_design_1.png", "tema5/t5_process_design_2.png", "tema5/t5_process_design_3.png", "tema5/t5_process_design_4.png"],
 
-    kodning: ["img/tema5/t5_process_kodning_1.png", "img/tema5/t5_process_kodning_2.png", "img/tema5/t5_process_kodning_3.png", "img/tema5/t5_process_kodning_4.png", "img/tema5/t5_process_kodning_5.png"],
+    kodning: ["tema5/t5_process_kodning_1.png", "tema5/t5_process_kodning_2.png", "tema5/t5_process_kodning_3.png", "tema5/t5_process_kodning_4.png", "tema5/t5_process_kodning_5.png"],
   },
 };
 processSections.forEach((section) => {
